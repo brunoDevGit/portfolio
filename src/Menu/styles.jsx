@@ -50,11 +50,13 @@ export const DropdownStyles = styled.div`
         overflow: hidden;
         background-color:#181414;
         box-shadow: 2px -1px 8px -2px #838383;
+        
       
         
     }
     .dropdown-section {
         position: absolute;
+        
 
     }
     .dropdown-background {

@@ -8,7 +8,7 @@ export const FrontendNoAr = () => (
       
      <li>
         <div >
-        <a href="http://www.brnsoftware.com.br/Cadastro-de-Usuario/#/"target="_blank">
+        <a href="https://brunodevgit.github.io/cadastro_de_Usuario/"target="_blank">
         <h3>Cadastro de Usuário</h3>
         <p>Aplicação com React executando um CRUD </p>
         <p>backend no repositório </p>
@@ -19,7 +19,7 @@ export const FrontendNoAr = () => (
 
       <li>
         <div>
-        <a href="http://www.brnsoftware.com.br/Cadastro-de-Usuario/#/"target="_blank">
+        <a href="https://brunodevgit.github.io/cadastro_de_Usuario/"target="_blank">
         <h3>Cadastro de Tarefas</h3>
         <p>Aplicação com React utilizando Redux para Gerenciamento de Estado.</p>
         <p>backend no repositório </p>

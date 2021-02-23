@@ -8,7 +8,7 @@ export const Repositorios = () => (
       
      <li>
         <div >
-        <a href="https://github.com/brunoDevGit" target="_blank">
+        <a href="https://github.com/brunoDevGit/cadastro_de_Usuario" target="_blank">
         <h3>Cadastro de Usuário</h3>
         <p>Aplicação com React executando um CRUD</p>
         </a>
@@ -17,7 +17,7 @@ export const Repositorios = () => (
 
       <li>
         <div>
-        <a href="https://github.com/brunoDevGit"target="_blank">
+        <a href="https://github.com/brunoDevGit/cadastro_de_Tarefas"target="_blank">
         <h3>Cadastro de Tarefas</h3>
         <p>Aplicação com React e </p>
         <p> Redux para Gerenciamento de Estado.</p>
@@ -27,18 +27,18 @@ export const Repositorios = () => (
       
       <li>
         <div>
-        <a href="https://github.com/brunoDevGit" target="_blank">
-        <h3>Backend JSON-SERVER</h3>
-        <p>Simples para usar com suas aplicações frontend.</p>
+        <a href="https://github.com/brunoDevGit/netflix_Clone" target="_blank">
+        <h3>Netflix Clone</h3>
+        <p>Reack.js.</p>
         </a>
         </div>
       </li>
       
       <li>
         <div>
-        <a href="https://github.com/brunoDevGit" target="_blank">
-        <h3>Campo Minado</h3>
-        <p>Classico jogo Campo Minado com - react-native.</p>
+        <a href="https://github.com/brunoDevGit/pagina_de_produto_mercadoLivre" target="_blank">
+        <h3>Mercado Livre</h3>
+        <p>Pagina de Produtos .</p>
         </a>
         </div>
       </li>
