@@ -49,8 +49,8 @@ export const DropdownStyles = styled.div`
         position: absolute;
         overflow: hidden;
         background-color:#181414;
-        box-shadow: 2px -1px 8px -2px #838383;
-        
+        box-shadow: 4px -1px 10px -1px #838383;
+        border-radius: 4px;
       
         
     }
@@ -64,6 +64,7 @@ export const DropdownStyles = styled.div`
         bottom: 0;
         background: #181414;
         width: 100%;
+        
 
     }
 

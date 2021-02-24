@@ -4,11 +4,16 @@ const h3 = css`
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #32325d;
+  color:  #fff;;
+`;
+const h4 = css`
+  font-size: 16px;
+  margin-left:10px;
+  color:  #e4e3e3;;
 `;
 
 const p = css`
-  color: #6b7c93;
+  color:  #cacaca;;
   font-size: 12px;
 `;
 
@@ -26,127 +31,87 @@ export const Wrapper = styled.div`
   
 
   .primary {
-    
+    display: flex;
     li {
-      display: flex;
-      align-items: center;
-      border-radius: 2px;
+        padding: 7px;
+        background: linear-gradient(150deg,  #E50914 ,#181414 50%);
+      ${hover}
       
-
-      
-      
-      
-      
-      &:hover,
-        &:focus {
-            
-            box-shadow: 1px 1px 3px 3px #545353;
+      cursor: pointer;
+  transition: opacity 0.1s ease-in;
+  &:hover {
+    opacity: 0.7;
+  }
+ 
+  
+  a {
+          text-decoration: none;
         }
+     
 
-      div {
-        ${hover}
-        margin-left: 19px;
+      & + li {
+        margin-top: 10px;
         
-        .contato {
-          
-          color: #fff;
-          
-          font-family: sans-serif;
-          font-size: 14px;
-          padding: 5px 5px;
-          
-          
-    
-        }
-
-        h3 {
-          ${h3}
-          color: #fff;
-          margin-top: 6px;
-        }
-        p {
-          ${p}
-          margin-top: 10px;
-          color: #cacaca;
-          margin-right: 8px  ;
-          
-        }
-        a {
-          text-decoration: none;
-        }
       }
 
-      & + li {
-        margin-top: 32px;
+      h4 {
+        ${h4}
+        
+       
       }
-
+      p {
+        ${p}
+        padding-top: 5px;
+       
+        
+      }
       
-    }}
   
-  
-   
-  
+  }}
 
   
-
-`;
-
-export const Wrapper_M = styled.div`
- padding: 32px 35px;
-  white-space: nowrap;
-  
-
-  .primary {
+    .secondary {
     
+
     li {
+      padding: 7px;
+       box-shadow: 4px -1px 10px -1px #838383;
+      ${hover}
       display: flex;
-      align-items: center;
-      border-radius: 2px;
-      
-
-      
-      
-      
-      
-      &:hover,
-        &:focus {
-            
-            box-shadow: 1px 1px 3px 3px #545353;
-        }
-          div{
-            padding:5px 0px;
-          }
+      cursor: pointer;
+  transition: opacity 0.1s ease-in;
+  &:hover {
+    opacity: 0.7;
     
-        }
-
-        h3 {
-          ${h3}
-          color: #fff;
-          margin-top: 6px;
-        }
-        p {
-          ${p}
-          margin-top: 10px;
-          color: #cacaca;
-          margin-right: 8px  ;
-          
-        }
-        a {
+  }
+  a {
           text-decoration: none;
         }
-      }
+     
 
       & + li {
-        margin-top: 32px;
+        margin-top: 14px;
+      }
+
+      h3 {
+        ${h3}
+        
+        margin-left: 16px;
+      }
+      p {
+        ${p}
+        padding-top: 10px;
+        margin-left: 14px;
       }
 
       
-    
-  
-  
-   
-  
-
+    }
+    .contato {
+      padding: 12px;
+      
+      box-shadow: 4px -1px 10px -1px #0e76a8;
+    }
+    }
   
 
 `;

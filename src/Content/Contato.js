@@ -4,29 +4,29 @@ import { Wrapper } from './styles.jsx';
 
 export const Contato = () => (
   <Wrapper>
-     <ul className="primary">
+     <ul className="secondary">
       
-     <li>
+     <li className="contato">
         <div >
         <a href="https://www.linkedin.com/in/bruno-de-oliveira-pereira-4238aab5/" target="_blank">
-        <h3 className="contato"> Linkedin </h3>
+        <h3 > Linkedin </h3>
         
         </a>
         </div>
       </li>
 
-      <li>
+      <li className="contato">
         <div>
         <a href="https://github.com/brunoDevGit" target="_blank">
-        <h3 className="contato"> GitHub </h3>
+        <h3 > GitHub </h3>
         </a>
         </div>
       </li>
       
-      <li>
+      <li className="contato">
         <div>
         <a href="mailto:brunodoliveirapereira@gmail.com" target="_blank">
-        <h3 className="contato"> Email </h3>
+        <h3 > Email </h3>
         </a>
         </div>
       </li>
