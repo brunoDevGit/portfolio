@@ -24,7 +24,7 @@ export const Repositorios = () => (
         <li> <div><a href="https://github.com/brunoDevGit/campoMinado_ReactNative" target="_blank">
           <h4>Campo Minado - react native</h4></a></div></li>
 
-         
+
 
         <li> <div><a href="https://github.com/brunoDevGit/calculadora_ReactNative" target="_blank">
           <h4>Calculadora - react native</h4></a></div></li>

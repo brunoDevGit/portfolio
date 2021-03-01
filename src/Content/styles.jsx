@@ -1,11 +1,5 @@
 import styled, { css } from 'styled-components';
 
-const h3 = css`
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color:  #fff;;
-`;
 const h4 = css`
   font-size: 16px;
   margin-left:10px;
@@ -53,11 +47,18 @@ export const Wrapper = styled.div`
         margin-top: 10px;
         
       }
+      h1{
+        ${p}
+        padding-top: 5px;
+      }
 
       h4 {
         ${h4}
         
        
+      }
+      h3 {
+        ${h4}
       }
       p {
         ${p}
@@ -72,17 +73,22 @@ export const Wrapper = styled.div`
   
     .secondary {
     
-
-    li {
-      padding: 7px;
-       box-shadow: 4px -1px 10px -1px #838383;
-      ${hover}
       display: flex;
+    li {
+        padding: 7px;
+        background: linear-gradient(150deg,  #0961e5 ,#181414 70%);
+      ${hover}
+      
       cursor: pointer;
   transition: opacity 0.1s ease-in;
+  
   &:hover {
     opacity: 0.7;
-    
+  }
+ 
+  div {
+    padding: 0px 5px;
+    margin: 0px;
   }
   a {
           text-decoration: none;
@@ -90,28 +96,32 @@ export const Wrapper = styled.div`
      
 
       & + li {
-        margin-top: 14px;
+        margin-top: 10px;
+        
+      }
+      h1{
+        ${p}
+        padding-top: 5px;
       }
 
       h3 {
-        ${h3}
+        ${h4}
+      }
+
+      h4 {
+        ${h4}
         
-        margin-left: 16px;
+       
       }
       p {
         ${p}
-        padding-top: 10px;
-        margin-left: 14px;
+        padding-top: 5px;
+       
+        
       }
 
       
-    }
-    .contato {
-      padding: 12px;
-      
-      box-shadow: 4px -1px 10px -1px #0e76a8;
-    }
-    }
   
+  }}
 
 `;
