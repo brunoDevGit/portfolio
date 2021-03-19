@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 const h4 = css`
   font-size: 16px;
   margin-left:10px;
-  color:  #e4e3e3;;
+  color:  #e4e3e3;
 `;
 
 const p = css`
